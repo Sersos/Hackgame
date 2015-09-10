@@ -1,6 +1,0 @@
-c:\users\janni_000\documents\visual studio 2013\Projects\Hackgame\Hackgame\bin\Debug\Hackgame.exe.config
-c:\users\janni_000\documents\visual studio 2013\Projects\Hackgame\Hackgame\obj\Debug\Hackgame.csprojResolveAssemblyReference.cache
-c:\users\janni_000\documents\visual studio 2013\Projects\Hackgame\Hackgame\bin\Debug\Hackgame.exe
-c:\users\janni_000\documents\visual studio 2013\Projects\Hackgame\Hackgame\bin\Debug\Hackgame.pdb
-c:\users\janni_000\documents\visual studio 2013\Projects\Hackgame\Hackgame\obj\Debug\Hackgame.exe
-c:\users\janni_000\documents\visual studio 2013\Projects\Hackgame\Hackgame\obj\Debug\Hackgame.pdb
