@@ -4,6 +4,7 @@
 int main(int argc, char* argv[])
 {
 	SDL_Window* window = NULL;	
+	SDL_Renderer* renderer = NULL;
 	
 	SDL_Init( SDL_INIT_EVERYTHING );
 
@@ -20,6 +21,11 @@ int main(int argc, char* argv[])
 	}
 
 	Uint32 windowId = SDL_GetWindowID(window);
+
+	renderer = SDL_CreateRenderer(
+		window,
+		-1,
+		SDL_RENDERER_ACCELERATED);
 
 	while (true)
 	{
@@ -74,6 +80,11 @@ int main(int argc, char* argv[])
 				break;
 			}
 		}
+
+		SDL_RenderClear(renderer);
+
+		SDL_RenderPresent(renderer);
+
 	}
 
 	SDL_DestroyWindow(window);

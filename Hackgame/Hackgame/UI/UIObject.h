@@ -3,21 +3,15 @@
 
 #include <SDL.h>
 
-class UIObject
+class UIObject 
 {
 public:
-	UIObject();
+	UIObject(
+		float x, float y,
+		float width, float height,
+		SDL_Color* color);
 
-	void Initialize(float x, float y,
-					float width, float height,
-					SDL_Color* color);
-
-
-
-	void Render(SDL_Renderer* renderer)
-	{
-		SDL_RenderCopy(renderer, NULL, NULL, NULL);
-	}
+	void Render(SDL_Renderer* renderer);	
 
 private:
 	SDL_Rect* m_object;
