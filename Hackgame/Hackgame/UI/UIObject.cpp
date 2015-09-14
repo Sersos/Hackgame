@@ -35,8 +35,7 @@ bool UIObject::IsMouseOnObject(Mouse* mouse)
 
 void UIObject::Render(SDL_Renderer* renderer)
 {
-	SDL_SetRenderDrawColor(renderer, m_currentColor.r,
-						   m_currentColor.g, m_currentColor.b, m_currentColor.g);
+	SDL_SetRenderDrawColor(renderer, m_currentColor.r, m_currentColor.g, m_currentColor.b, m_currentColor.g);
 	SDL_RenderFillRect(renderer, &m_rect);
 }
 

@@ -39,7 +39,7 @@ public:
 	inline Color* GetDefaultColor();
 	inline Color* GetHoverDefault();
 
-private:
+protected:
 	SDL_Rect m_rect;	
 	
 	Color m_defaultColor;

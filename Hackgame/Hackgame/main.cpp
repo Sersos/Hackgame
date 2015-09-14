@@ -38,7 +38,7 @@ int main( int argc, char* argv[] )
 	hoverColor.b = 0;
 	hoverColor.a = 255;
 
-	UI::Button button = UI::Button(50, 50, 250, 250, defaultColor, hoverColor);
+	UI::Button button1 = UI::Button(50, 50, 250, 250, defaultColor, hoverColor);
 
 	while (true)
 	{
@@ -91,8 +91,8 @@ int main( int argc, char* argv[] )
 
 		SDL_RenderClear(renderer);
 
-		button.Update(mouse);
-		button.Render(renderer);
+		button1.Update(mouse);
+		button1.Render(renderer);
 
 		//display content
 		SDL_RenderPresent(renderer);

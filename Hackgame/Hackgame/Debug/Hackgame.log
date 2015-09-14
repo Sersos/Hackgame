@@ -1,39 +1,28 @@
-<<<<<<< HEAD
-﻿Der Buildvorgang wurde am 14.09.2015 23:30:39 gestartet.
-     1>Projekt "C:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Hackgame\Hackgame.vcxproj" auf Knoten "2", Build Ziel(e).
+﻿Der Buildvorgang wurde am 14.09.2015 23:56:27 gestartet.
+     1>Projekt "C:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Hackgame\Hackgame.vcxproj" auf Knoten "2", Build Ziel(e).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Hackgame\/HelperClasses/FPSCounter /IC:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Hackgame\/HelperClasses/Mouse /IC:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Hackgame\/HelperClasses /IC:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Hackgame\/Config /IC:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Hackgame\/Network /IC:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Hackgame\/UI /IC:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Hackgame\/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Hackgame\/HelperClasses/FPSCounter /IC:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Hackgame\/HelperClasses/Mouse /IC:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Hackgame\/HelperClasses /IC:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Hackgame\/Config /IC:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Hackgame\/Network /IC:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Hackgame\/UI /IC:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Hackgame\/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt UI\Button.cpp UI\UIObject.cpp main.cpp
          main.cpp
+         Code wird generiert...
+         Kompilieren...
+         UIObject.cpp
+     1>c:\users\maxiig\documents\github\hackgame\hackgame\hackgame\ui\uiobject.cpp(8): warning C4244: '=': Konvertierung von 'float' in 'int', möglicher Datenverlust
+     1>c:\users\maxiig\documents\github\hackgame\hackgame\hackgame\ui\uiobject.cpp(9): warning C4244: '=': Konvertierung von 'float' in 'int', möglicher Datenverlust
+     1>c:\users\maxiig\documents\github\hackgame\hackgame\hackgame\ui\uiobject.cpp(11): warning C4244: '=': Konvertierung von 'float' in 'int', möglicher Datenverlust
+     1>c:\users\maxiig\documents\github\hackgame\hackgame\hackgame\ui\uiobject.cpp(12): warning C4244: '=': Konvertierung von 'float' in 'int', möglicher Datenverlust
+     1>c:\users\maxiig\documents\github\hackgame\hackgame\hackgame\ui\uiobject.cpp(38): warning C4244: 'Argument': Konvertierung von 'short' in 'Uint8', möglicher Datenverlust
+         Code wird generiert...
+         Überspringen... (keine relevanten Änderungen gefunden)
+         Button.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Debug\Hackgame.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Hackgame\/lib/x86 SDL2.lib SDL2main.lib SDL2test.lib "sfml-network.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Debug\Hackgame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Debug\Hackgame.lib" /MACHINE:X86 Debug\FPSCounter.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Debug\Hackgame.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Hackgame\/lib/x86 SDL2.lib SDL2main.lib SDL2test.lib "sfml-network.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Debug\Hackgame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Debug\Hackgame.lib" /MACHINE:X86 Debug\FPSCounter.obj
          Debug\Mouse.obj
          Debug\main.obj
          Debug\Button.obj
          Debug\UIObject.obj
-         Hackgame.vcxproj -> C:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Debug\Hackgame.exe
-     1>Die Erstellung des Projekts "C:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Hackgame\Hackgame.vcxproj" ist abgeschlossen, Build Ziel(e).
-
-Build erfolgreich.
-
-Verstrichene Zeit 00:00:00.86
-=======
-﻿Der Buildvorgang wurde am 14.09.2015 14:09:59 gestartet.
-     1>Projekt "C:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Hackgame\Hackgame.vcxproj" auf Knoten "2", Build Ziel(e).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Hackgame\/UI /IC:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Hackgame\/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp UI\Button.cpp UI\UIObject.cpp
-         UIObject.cpp
-         Button.cpp
-         main.cpp
-         Code wird generiert...
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Debug\Hackgame.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Hackgame\/lib/x86 SDL2.lib SDL2main.lib SDL2test.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Debug\Hackgame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Debug\Hackgame.lib" /MACHINE:X86 Debug\main.obj
-         Debug\Button.obj
-         Debug\UIObject.obj
-     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: Standardbibliothek "msvcrt.lib" steht in Konflikt mit anderen Bibliotheken; /NODEFAULTLIB:Bibliothek verwenden.
          Hackgame.vcxproj -> C:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Debug\Hackgame.exe
      1>Die Erstellung des Projekts "C:\Users\Maxiig\Documents\GitHub\Hackgame\Hackgame\Hackgame\Hackgame.vcxproj" ist abgeschlossen, Build Ziel(e).
 
 Build erfolgreich.
 
-Verstrichene Zeit 00:00:03.07
->>>>>>> origin/master
+Verstrichene Zeit 00:00:01.88

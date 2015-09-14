@@ -11,6 +11,7 @@ Mouse::Mouse()
 void Mouse::Update()
 {
 	SDL_GetMouseState(&m_x, &m_y);
+	SDL_Delay(400);
 	std::cout << "X: " << m_x << std::endl;
 	std::cout << "Y: " << m_y << std::endl;
 }
