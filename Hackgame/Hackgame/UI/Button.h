@@ -14,8 +14,9 @@ namespace UI
 	public:
 		Button(float x, float y,
 			   float width, float height,
-			   short r, short g, short b, short a);
+			   Color& defaultColor, Color& hoverColor);
 
+		void Update(Mouse* mouse) override;
 
 	private:
 

@@ -1,11 +1,14 @@
 #include <SDL.h>
 #include <iostream>
-#include "UIObject.h"
+#include "Button.h"
+#include "Mouse.h"
 
 int main( int argc, char* argv[] )
 {
 	SDL_Window* window = NULL;	
 	SDL_Renderer* renderer = NULL;
+
+	Mouse* mouse = new Mouse;	
 			
 	SDL_Init( SDL_INIT_EVERYTHING );
 
@@ -23,7 +26,19 @@ int main( int argc, char* argv[] )
 
 	Uint32 windowId = SDL_GetWindowID(window);
 
-	UIObject button = UIObject(50, 50, 250, 250, 0, 255, 0, 255);
+	Color defaultColor;
+	defaultColor.r = 255;
+	defaultColor.g = 0;
+	defaultColor.b = 0;
+	defaultColor.a = 255;
+
+	Color hoverColor;
+	hoverColor.r = 0;
+	hoverColor.g = 255;
+	hoverColor.b = 0;
+	hoverColor.a = 255;
+
+	UI::Button button = UI::Button(50, 50, 250, 250, defaultColor, hoverColor);
 
 	while (true)
 	{
@@ -53,17 +68,7 @@ int main( int argc, char* argv[] )
 			}
 			case SDL_MOUSEBUTTONUP:
 			{
-				std::cout << "Mouse clicked" << std::endl;
-
-				SDL_Window* secondWindow = NULL;
-
-				window = SDL_CreateWindow(
-					"Window 2",
-					SDL_WINDOWPOS_UNDEFINED,
-					SDL_WINDOWPOS_UNDEFINED,
-					500,
-					500,
-					SDL_WINDOW_OPENGL);
+				std::cout << "Mouse clicked" << std::endl;				
 
 				break;
 			}
@@ -78,15 +83,19 @@ int main( int argc, char* argv[] )
 				break;
 			}
 		}
+		
+		//update mouse stats
+		mouse->Update();
 
 		renderer = SDL_CreateRenderer(window, 0, 0);
 
 		SDL_RenderClear(renderer);
 
+		button.Update(mouse);
 		button.Render(renderer);
 
+		//display content
 		SDL_RenderPresent(renderer);
-
 	}
 
 	SDL_DestroyWindow(window);

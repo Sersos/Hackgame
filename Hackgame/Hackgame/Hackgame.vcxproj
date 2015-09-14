@@ -52,7 +52,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>$(ProjectDir)/Config;$(ProjectDir)/Network;$(ProjectDir)/UI;$(ProjectDir)/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)/HelperClasses/FPSCounter;$(ProjectDir)/HelperClasses/Mouse;$(ProjectDir)/HelperClasses;$(ProjectDir)/Config;$(ProjectDir)/Network;$(ProjectDir)/UI;$(ProjectDir)/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -79,11 +79,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HelperClasses\FPSCounter\FPSCounter.cpp" />
+    <ClCompile Include="HelperClasses\Mouse\Mouse.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="UI\Button.cpp" />
     <ClCompile Include="UI\UIObject.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="HelperClasses\FPSCounter\FPSCounter.h" />
+    <ClInclude Include="HelperClasses\Mouse\Mouse.h" />
     <ClInclude Include="Network\Client.h" />
     <ClInclude Include="UI\Button.h" />
     <ClInclude Include="UI\UIObject.h" />
