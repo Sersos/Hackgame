@@ -32,5 +32,8 @@
     <ClInclude Include="UI\Button.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
+    <ClInclude Include="Network\Client.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

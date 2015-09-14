@@ -1,10 +1,18 @@
-﻿Der Buildvorgang wurde am 14.09.2015 13:58:57 gestartet.
-     1>Projekt "C:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Hackgame\Hackgame.vcxproj" auf Knoten "2", ClCompile Ziel(e).
+﻿Der Buildvorgang wurde am 14.09.2015 14:56:29 gestartet.
+     1>Projekt "C:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Hackgame\Hackgame.vcxproj" auf Knoten "2", Build Ziel(e).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Hackgame\/UI /IC:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Hackgame\/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
-         main.cpp
-     1>Die Erstellung des Projekts "C:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Hackgame\Hackgame.vcxproj" ist abgeschlossen, ClCompile Ziel(e).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IC:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Hackgame\/UI /IC:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Hackgame\/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt UI\Button.cpp UI\UIObject.cpp
+         UIObject.cpp
+     1>c:\users\janni_000\documents\github\hackgame\hackgame\hackgame\ui\uiobject.cpp(10): warning C4244: '=': Konvertierung von 'float' in 'int', möglicher Datenverlust
+     1>c:\users\janni_000\documents\github\hackgame\hackgame\hackgame\ui\uiobject.cpp(11): warning C4244: '=': Konvertierung von 'float' in 'int', möglicher Datenverlust
+     1>c:\users\janni_000\documents\github\hackgame\hackgame\hackgame\ui\uiobject.cpp(13): warning C4244: '=': Konvertierung von 'float' in 'int', möglicher Datenverlust
+     1>c:\users\janni_000\documents\github\hackgame\hackgame\hackgame\ui\uiobject.cpp(14): warning C4244: '=': Konvertierung von 'float' in 'int', möglicher Datenverlust
+     1>c:\users\janni_000\documents\github\hackgame\hackgame\hackgame\ui\uiobject.cpp(28): warning C4244: 'Argument': Konvertierung von 'short' in 'Uint8', möglicher Datenverlust
+         Button.cpp
+     1>c:\users\janni_000\documents\github\hackgame\hackgame\hackgame\ui\button.cpp(8): fatal error C1004: Unerwartetes Dateiende gefunden.
+         Code wird generiert...
+     1>Die Erstellung des Projekts "C:\Users\janni_000\Documents\GitHub\Hackgame\Hackgame\Hackgame\Hackgame.vcxproj" ist abgeschlossen, Build Ziel(e) -- FEHLER.
 
-Build erfolgreich.
+Fehler beim Buildvorgang.
 
-Verstrichene Zeit 00:00:01.06
+Verstrichene Zeit 00:00:00.37

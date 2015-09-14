@@ -3,18 +3,25 @@
 
 #include <SDL.h>
 
+/*
+	Base class for all user interface objects
+*/
+
 class UIObject 
 {
 public:
-	UIObject(
-		float x, float y,
+	UIObject(float x, float y,
 		float width, float height,
-		SDL_Color* color);
+		short r,
+		short g,
+		short b,
+		short a);
 
 	void Render(SDL_Renderer* renderer);	
 
 private:
-	SDL_Rect* m_object;
+	SDL_Rect m_rect;	
+	short m_color[4];
 
 };
 

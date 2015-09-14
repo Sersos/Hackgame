@@ -1,11 +1,12 @@
 #include <SDL.h>
 #include <iostream>
+#include "UIObject.h"
 
-int main(int argc, char* argv[])
+int main( int argc, char* argv[] )
 {
 	SDL_Window* window = NULL;	
 	SDL_Renderer* renderer = NULL;
-	
+			
 	SDL_Init( SDL_INIT_EVERYTHING );
 
 	window = SDL_CreateWindow(
@@ -22,10 +23,7 @@ int main(int argc, char* argv[])
 
 	Uint32 windowId = SDL_GetWindowID(window);
 
-	renderer = SDL_CreateRenderer(
-		window,
-		-1,
-		SDL_RENDERER_ACCELERATED);
+	UIObject button = UIObject(50, 50, 250, 250, 0, 255, 0, 255);
 
 	while (true)
 	{
@@ -81,7 +79,11 @@ int main(int argc, char* argv[])
 			}
 		}
 
+		renderer = SDL_CreateRenderer(window, 0, 0);
+
 		SDL_RenderClear(renderer);
+
+		button.Render(renderer);
 
 		SDL_RenderPresent(renderer);
 
