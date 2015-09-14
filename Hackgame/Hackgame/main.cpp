@@ -66,9 +66,10 @@ int main(int argc, char* argv[])
 			//if event type is equal to 'SDL_QUIT' close program
 			case SDL_QUIT:
 			{
+				
+				
 				return 0;
 			}
-
 			default:
 				break;
 			}
